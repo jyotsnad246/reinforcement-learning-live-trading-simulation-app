@@ -10,53 +10,55 @@ RL Trading App - Fintech meets Cozy AI aesthetic
 
 @layer base {
   :root {
-    /* Fintech Light Mode - Pastel Blues & Greens */
-    --background: 214 100% 98%;
-    --foreground: 210 17% 21%;
+    /* Professional Black Theme with Light Blue Accents */
+    --background: 220 13% 8%;
+    --foreground: 200 20% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 17% 21%;
+    --card: 220 13% 10%;
+    --card-foreground: 200 20% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 17% 21%;
+    --popover: 220 13% 10%;
+    --popover-foreground: 200 20% 95%;
 
-    --primary: 213 94% 68%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 199 89% 68%;
+    --primary-foreground: 220 13% 8%;
 
-    --secondary: 154 44% 85%;
-    --secondary-foreground: 154 44% 25%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 200 20% 95%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 210 17% 46%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 200 10% 65%;
 
-    --accent: 192 81% 91%;
-    --accent-foreground: 192 81% 31%;
+    --accent: 199 89% 68%;
+    --accent-foreground: 220 13% 8%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 200 20% 95%;
 
-    --success: 154 57% 51%;
-    --success-foreground: 0 0% 100%;
+    --success: 142 71% 45%;
+    --success-foreground: 200 20% 95%;
 
     --warning: 45 93% 58%;
-    --warning-foreground: 0 0% 100%;
+    --warning-foreground: 220 13% 8%;
 
-    --border: 213 27% 90%;
-    --input: 213 27% 90%;
-    --ring: 213 94% 68%;
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 199 89% 68%;
 
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(192 81% 71%));
-    --gradient-secondary: linear-gradient(135deg, hsl(154 44% 85%), hsl(192 81% 91%));
-    --gradient-bg: linear-gradient(180deg, hsl(214 100% 98%), hsl(213 27% 96%));
+    /* Advanced Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(199 89% 68%), hsl(199 89% 48%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 13% 15%), hsl(220 13% 20%));
+    --gradient-bg: linear-gradient(135deg, hsl(220 13% 8%), hsl(220 13% 12%));
+    --gradient-text: linear-gradient(135deg, hsl(199 89% 78%), hsl(199 89% 58%));
+    --gradient-glow: linear-gradient(135deg, hsl(199 89% 68% / 0.3), hsl(199 89% 48% / 0.3));
 
-    /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(213 94% 68% / 0.1);
-    --shadow-glow: 0 0 40px hsl(213 94% 68% / 0.2);
+    /* Professional Shadows */
+    --shadow-soft: 0 8px 32px -8px hsl(199 89% 68% / 0.2);
+    --shadow-glow: 0 0 60px hsl(199 89% 68% / 0.4);
+    --shadow-intense: 0 16px 64px -16px hsl(199 89% 68% / 0.3);
 
-    /* Font family */
     --font-family: 'Inter', system-ui, sans-serif;
 
     --sidebar-background: 0 0% 98%;
@@ -77,49 +79,35 @@ RL Trading App - Fintech meets Cozy AI aesthetic
   }
 
   .dark {
-    /* Fintech Dark Mode - Deep Navy & Glowing Neons */
-    --background: 216 28% 7%;
-    --foreground: 213 31% 91%;
-
-    --card: 215 25% 9%;
-    --card-foreground: 213 31% 91%;
-
-    --popover: 215 25% 9%;
-    --popover-foreground: 213 31% 91%;
-
-    --primary: 177 100% 44%;
-    --primary-foreground: 216 28% 7%;
-
-    --secondary: 215 25% 14%;
-    --secondary-foreground: 213 31% 91%;
-
-    --muted: 215 25% 14%;
-    --muted-foreground: 217 10% 64%;
-
-    --accent: 177 100% 44%;
-    --accent-foreground: 216 28% 7%;
-
-    --destructive: 0 91% 71%;
-    --destructive-foreground: 216 28% 7%;
-
-    --success: 154 100% 50%;
-    --success-foreground: 216 28% 7%;
-
-    --warning: 45 100% 51%;
-    --warning-foreground: 216 28% 7%;
-
-    --border: 215 25% 18%;
-    --input: 215 25% 18%;
-    --ring: 177 100% 44%;
-
-    /* Dark gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(177 100% 44%), hsl(213 94% 68%));
-    --gradient-secondary: linear-gradient(135deg, hsl(215 25% 14%), hsl(215 25% 18%));
-    --gradient-bg: linear-gradient(180deg, hsl(216 28% 7%), hsl(215 25% 9%));
-
-    /* Dark shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(177 100% 44% / 0.2);
-    --shadow-glow: 0 0 40px hsl(177 100% 44% / 0.3);
+    /* Same as root - always dark theme */
+    --background: 220 13% 8%;
+    --foreground: 200 20% 95%;
+    --card: 220 13% 10%;
+    --card-foreground: 200 20% 95%;
+    --popover: 220 13% 10%;
+    --popover-foreground: 200 20% 95%;
+    --primary: 199 89% 68%;
+    --primary-foreground: 220 13% 8%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 200 20% 95%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 200 10% 65%;
+    --accent: 199 89% 68%;
+    --accent-foreground: 220 13% 8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 200 20% 95%;
+    --success: 142 71% 45%;
+    --success-foreground: 200 20% 95%;
+    --warning: 45 93% 58%;
+    --warning-foreground: 220 13% 8%;
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 199 89% 68%;
+    --gradient-primary: linear-gradient(135deg, hsl(199 89% 68%), hsl(199 89% 48%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 13% 15%), hsl(220 13% 20%));
+    --gradient-bg: linear-gradient(135deg, hsl(220 13% 8%), hsl(220 13% 12%));
+    --shadow-soft: 0 8px 32px -8px hsl(199 89% 68% / 0.2);
+    --shadow-glow: 0 0 60px hsl(199 89% 68% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -149,9 +137,10 @@ RL Trading App - Fintech meets Cozy AI aesthetic
 }
 
 @layer components {
-  /* Fintech Card Styles */
+  /* Professional Trading Interface */
   .fintech-card {
-    @apply bg-card border border-border rounded-xl shadow-soft backdrop-blur-sm;
+    @apply bg-card border border-border rounded-xl backdrop-blur-sm;
+    box-shadow: var(--shadow-soft);
   }
 
   .fintech-card-glow {
@@ -159,31 +148,53 @@ RL Trading App - Fintech meets Cozy AI aesthetic
     box-shadow: var(--shadow-glow);
   }
 
-  /* Gradient backgrounds */
-  .gradient-primary {
-    background: var(--gradient-primary);
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
-  .gradient-secondary {
-    background: var(--gradient-secondary);
+  /* Chart Enhancements */
+  .chart-glow {
+    filter: drop-shadow(0 0 20px hsl(199 89% 68% / 0.3));
   }
 
-  /* Animation utilities */
-  .animate-float {
-    animation: float 3s ease-in-out infinite;
+  /* Trading Button Styles */
+  .buy-button {
+    @apply bg-success hover:bg-success/90 text-success-foreground;
+    box-shadow: 0 0 20px hsl(142 71% 45% / 0.3);
   }
 
-  .animate-pulse-glow {
-    animation: pulse-glow 2s ease-in-out infinite;
+  .sell-button {
+    @apply bg-destructive hover:bg-destructive/90 text-destructive-foreground;
+    box-shadow: 0 0 20px hsl(0 84% 60% / 0.3);
   }
 
-  @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-4px); }
+  /* Enhanced Animations */
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
   }
 
-  @keyframes pulse-glow {
-    0%, 100% { box-shadow: var(--shadow-soft); }
-    50% { box-shadow: var(--shadow-glow); }
+  .animate-data-flow {
+    animation: data-flow 2s linear infinite;
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { 
+      box-shadow: var(--shadow-soft);
+      transform: scale(1);
+    }
+    50% { 
+      box-shadow: var(--shadow-glow);
+      transform: scale(1.02);
+    }
+  }
+
+  @keyframes data-flow {
+    0% { opacity: 0.5; transform: translateX(-100%); }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; transform: translateX(100%); }
   }
 }
